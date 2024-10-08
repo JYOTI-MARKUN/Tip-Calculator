@@ -16,16 +16,18 @@ body{
 header{ 
     background-color: #FE851B;
     width:300px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 30px;
     text-align: center;
     border-radius: 8px;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
+  
 }
 
 
 .all-content{
-    margin-top: 10px;
+    margin-top: 60px;
 background-color: white;
 width: 400px;
 padding: 20px;
@@ -64,4 +66,24 @@ button{
 
 .show{
     display: block;
+}
+
+footer{
+    color: white;
+    margin-top: 170px;
+}
+
+@media (max-width:550px){
+    header{
+        padding: 5px;
+        font-size: 10px ;
+        width: 200px;
+    }
+    .all-content{
+        width: 280px;
+    }
+    fotter{
+        margin-top: 130px;
+    }
+
 }
