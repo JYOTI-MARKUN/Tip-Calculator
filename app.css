@@ -73,7 +73,7 @@ footer{
     margin-top: 170px;
 }
 
-@media (max-width:550px){
+@media (max-width:550px ){
     header{
         padding: 5px;
         font-size: 10px ;
@@ -82,8 +82,9 @@ footer{
     .all-content{
         width: 280px;
     }
-    fotter{
-        margin-top: 130px;
+    footer{
+        margin-top: 100px;
     }
+  
 
 }
